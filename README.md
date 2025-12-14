@@ -72,15 +72,10 @@ DB_HOST=localhost
 DB_PORT=5432
 SERVER_PORT=5000
 
-shell
-Copy code
 
 ### Frontend `.env`
 
 REACT_APP_API_URL=http://localhost:5000/api
-
-yaml
-Copy code
 
 ---
 
@@ -94,27 +89,20 @@ npm install
 npx nodemon src/app.js
 Backend will run on:
 
-arduino
-Copy code
 http://localhost:5000
 2️⃣ Run Frontend
-bash
-Copy code
+
 cd frontend
 npm install
 npm start
 Frontend will run on:
 
-arduino
-Copy code
 http://localhost:3000
 🧪 Database Verification
 Open pgAdmin
 
 Navigate to:
 
-pgsql
-Copy code
 hall_booking_db → Schemas → public → Tables → Bookings
 Use View/Edit Data to see saved records
 <img width="1464" height="614" alt="image" src="https://github.com/user-attachments/assets/8ece1a69-2553-4e3a-aa5d-e37d69f4df02" />
